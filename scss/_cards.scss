@@ -10,6 +10,22 @@ section.cards {
   }
 }
 
+section.chance.cards.left
+{
+  h2
+  {
+  text-align: center;
+  }
+}
+
+section.community.cards.right
+{
+    h2
+    {
+    text-align: center;
+  }
+}
+
 #ch-card1:hover {
   content:url(../images/ch-card1.jpg);
 }
