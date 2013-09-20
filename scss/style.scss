@@ -27,7 +27,7 @@ header
 
 nav
 {
-  background-color: white;
+  background-color: lightgray;
   ul
   {
     width: 90%;
@@ -42,7 +42,7 @@ nav
       padding: 5px 10px;
       font-weight: bold;
       &:hover {
-        background: darkgray;
+         background: gray;
       }
       a
       {
@@ -51,8 +51,9 @@ nav
 
         &:hover
         {
-          font-size: 1.25em;
-          color: red;
+          background: darkgray;
+          font-size: 1.1em;
+          color: orange;
         }
       }
     }
@@ -62,17 +63,23 @@ nav
 section
 {
   font-family: $content_font;
-  background-color: white;
+  background-color: lightgray;
   padding: 10px 30px;
   margin: 10px 0;
+  h1
+  {
+    text-align: center;
+  }
 }
 
 footer
 {
   font-family: $main_font;
   float: left;
-  background-color: white;
+  background-color: lightgray;
   width: 960px;
+  padding: 0 0 10px 0;
+  text-align: center;
   p {
     margin: 30px;
   }
