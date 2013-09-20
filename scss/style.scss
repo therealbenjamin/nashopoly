@@ -2,39 +2,45 @@
 @import "fonts";
 @import "index";
 @import "pieces";
+@import "board";
 
 body {
   width: 960px;
   margin: auto;
+  background: brown url(../images/wood-background-repeating_1.jpg) repeat;
 }
 
 header
 {
   font-family: $main_font;
   font-size: $header_font_size;
-  background-color: red;
-}
-
-.logo_image
-{
-  width: 80px;
-  margin: 0 auto;
-  float: left;
+  background-color: white;
+  margin-top: 20px;
 }
 
 .header_text
 {
-  margin: 50px 0 5px 0;
+  padding: 20px 0 20px 315px;
 }
 
 nav
 {
   font-family: $main_font;
+  background-color: white;
   ul
   {
     li
     {
-
+      float: left;
+      list-style: none;
+      font-size: 20px;
+      margin: 0 12px 12px 12px;
+      padding: 20px 0 5px 20px;
+      a
+      {
+        text-decoration: none;
+        color: black;
+      }
     }
   }
 }
@@ -42,11 +48,18 @@ nav
 section
 {
   font-family: $content_font;
+  background-color: white;
+  iframe
+  {
+    padding-left: 180px;
+  }
 }
 
 footer
 {
   font-family: $main_font;
+  float: left;
+  background-color: white;
 }
 
 .clear {
