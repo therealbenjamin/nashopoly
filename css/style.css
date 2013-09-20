@@ -127,16 +127,16 @@ section.cards {
   content: url(../images/cc-card1.jpg); }
 
 #cc-card2:hover {
-  content: url(../images/cc-card2); }
+  content: url(../images/cc-card2.jpg); }
 
 #cc-card3:hover {
-  content: url(../images/cc-card3); }
+  content: url(../images/cc-card3.jpg); }
 
 #cc-card4:hover {
-  content: url(../images/cc-card4); }
+  content: url(../images/cc-card4.jpg); }
 
 #cc-card5:hover {
-  content: url(../images/cc-card5); }
+  content: url(../images/cc-card5.jpg); }
 
 body {
   width: 960px;
