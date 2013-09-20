@@ -11,6 +11,7 @@ body {
   margin: auto;
   background: brown url(../images/wood-background-repeating_1.jpg) repeat;
   font-family: $main_font;
+  overflow-y: scroll;
 }
 
 header
@@ -29,14 +30,20 @@ nav
   background-color: white;
   ul
   {
+    width: 90%;
+    margin: auto;
+    padding: 0;
     li
     {
       float: left;
       list-style: none;
       font-size: 20px;
-      margin: 0 12px 12px 12px;
-      padding: 20px 0 5px 20px;
+      margin: 5px 10px;
+      padding: 5px 10px;
       font-weight: bold;
+      &:hover {
+        background: darkgray;
+      }
       a
       {
         text-decoration: none;
@@ -56,14 +63,19 @@ section
 {
   font-family: $content_font;
   background-color: white;
+  padding: 10px 30px;
+  margin: 10px 0;
 }
 
 footer
 {
-  width: 920px;
   font-family: $main_font;
   float: left;
   background-color: white;
+  width: 960px;
+  p {
+    margin: 30px;
+  }
 }
 
 .clear {

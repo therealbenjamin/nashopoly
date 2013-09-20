@@ -1,8 +1,18 @@
+.main {
+  margin: 10px 0;
+}
+
 section.cards {
-  width: 460px;
+  width: 420px;
   float: left;
+  margin: 0 auto;
+  text-align: center;
+  ul {
+    padding: 0;
+  }
   li {
     list-style: none;
+    padding-bottom: 20px;
   }
 }
 
@@ -12,13 +22,18 @@ section.chance.cards.left
   {
   text-align: center;
   }
+  ul {
+  margin-right: -30px;
+  }
 }
 
 section.community.cards.right
 {
-    h2
-    {
+  h2 {
     text-align: center;
+    }
+  ul {
+  margin-left: -30px;
   }
 }
 
