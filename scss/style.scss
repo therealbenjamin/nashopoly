@@ -1,10 +1,52 @@
 @import "colors";
 @import "fonts";
+@import "index";
 @import "pieces";
 
 body {
   width: 960px;
   margin: auto;
+}
+
+header
+{
+  font-family: $main_font;
+  font-size: $header_font_size;
+  background-color: red;
+}
+
+.logo_image
+{
+  width: 80px;
+  margin: 0 auto;
+  float: left;
+}
+
+.header_text
+{
+  margin: 50px 0 5px 0;
+}
+
+nav
+{
+  font-family: $main_font;
+  ul
+  {
+    li
+    {
+
+    }
+  }
+}
+
+section
+{
+  font-family: $content_font;
+}
+
+footer
+{
+  font-family: $main_font;
 }
 
 .clear {

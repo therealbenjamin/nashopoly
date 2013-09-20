@@ -6,15 +6,23 @@
     %link{rel: 'stylesheet', href: 'css/normalize.css'}
     %link{rel: 'stylesheet', href: 'css/style.css'}
   %body
-    %header Nashopoly
-    %nav
+    %header
+      %img.logo_image{src: 'images/hasbro.jpg'}
+      .header_text Nashopoly
+    %nav#navbar
       %ul
-        %li Home
-        %li Board
-        %li Pieces
-        %li Cards
-        %li Frequently Asked Questions
-        %li Contact Us
+        %li
+          %a{href: 'index.html'} Home
+        %li
+          %a{href: 'board.html'} Board
+        %li
+          %a{href: 'pieces.html'} Pieces
+        %li
+          %a{href: 'cards.html'} Cards
+        %li
+          %a{href: 'faq.html'} Frequently Asked Questions
+        %li
+          %a{href: 'contact.html'} Contact Us
     %section.top
       <iframe width="560" height="315" src="http://www.youtube.com/embed/b93mTVukuiE" frameborder="0" allowfullscreen></iframe>
       .content
@@ -23,7 +31,6 @@
         %h1
         %p
     %footer
-      %img{src: 'images/hasbro.jpg'}
       %p &copy; Copyright 2013, RSB Concepts LLC
 
 
