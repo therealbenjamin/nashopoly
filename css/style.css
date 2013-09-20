@@ -144,10 +144,12 @@ body {
   background: brown url(../images/wood-background-repeating_1.jpg) repeat; }
 
 header {
+  background-color: transparent;
   font-family: "Quattrocento", serif;
-  font-size: 50px;
-  background-color: white;
-  margin-top: 20px; }
+  font-size: 50px; }
+  header img {
+    margin: auto;
+    display: block; }
 
 .header_img {
   padding: 20px 0 20px 315px; }

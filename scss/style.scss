@@ -13,9 +13,13 @@ body {
 
 header
 {
-  margin: auto;
+  background-color: transparent;
   font-family: $main_font;
   font-size: $header_font_size;
+  img {
+    margin: auto;
+    display: block;
+  }
 }
 
 .header_img
