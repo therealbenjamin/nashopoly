@@ -141,28 +141,26 @@ section.cards {
 body {
   width: 960px;
   margin: auto;
-  background: brown url(../images/wood-background-repeating_1.jpg) repeat; }
+  background: brown url(../images/wood-background-repeating_1.jpg) repeat;
+  font-family: "Quattrocento", serif; }
 
 header {
   background-color: transparent;
-  font-family: "Quattrocento", serif;
-  font-size: 50px; }
+  font-size: 50px;
+  padding: 20px 0; }
   header img {
     margin: auto;
     display: block; }
 
-.header_img {
-  padding: 20px 0 20px 315px; }
-
 nav {
-  font-family: "Quattrocento", serif;
   background-color: white; }
   nav ul li {
     float: left;
     list-style: none;
     font-size: 20px;
     margin: 0 12px 12px 12px;
-    padding: 20px 0 5px 20px; }
+    padding: 20px 0 5px 20px;
+    font-weight: bold; }
     nav ul li a {
       text-decoration: none;
       color: black; }
@@ -172,7 +170,6 @@ section {
   background-color: white; }
 
 footer {
-  font-family: "Quattrocento", serif;
   float: left;
   background-color: white; }
 
