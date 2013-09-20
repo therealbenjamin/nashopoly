@@ -1,6 +1,10 @@
 section.cards {
   width: 460px;
   float: left;
+  text-align: center;
+  ul {
+    padding: 0;
+  }
   li {
     list-style: none;
   }
