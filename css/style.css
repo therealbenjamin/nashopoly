@@ -105,35 +105,38 @@ section.board img {
 section.cards {
   width: 460px;
   float: left; }
-
-section.community {
-  width: 460px;
-  float: left; }
-  float: left;
-}
-section.cards li {
-  list-style: none;
-}
+  section.cards li {
+    list-style: none; }
 
 #ch-card1:hover {
-  content: url(../images/ch-card1.jpg);
-}
+  content: url(../images/ch-card1.jpg); }
 
 #ch-card2:hover {
-  content: url(../images/ch-card2.jpg);
-}
+  content: url(../images/ch-card2.jpg); }
 
 #ch-card3:hover {
-  content: url(../images/ch-card1.jpg);
-}
+  content: url(../images/ch-card3.jpg); }
 
 #ch-card4:hover {
-  content: url(../images/ch-card1.jpg);
-}
+  content: url(../images/ch-card4.jpg); }
 
 #ch-card5:hover {
-  content: url(../images/ch-card1.jpg);
-}
+  content: url(../images/ch-card5.jpg); }
+
+#cc-card1:hover {
+  content: url(../images/cc-card1.jpg); }
+
+#cc-card2:hover {
+  content: url(../images/cc-card2); }
+
+#cc-card3:hover {
+  content: url(../images/cc-card3); }
+
+#cc-card4:hover {
+  content: url(../images/cc-card4); }
+
+#cc-card5:hover {
+  content: url(../images/cc-card5); }
 
 body {
   width: 960px;
@@ -146,7 +149,7 @@ header {
   background-color: white;
   margin-top: 20px; }
 
-.header_text {
+.header_img {
   padding: 20px 0 20px 315px; }
 
 nav {
