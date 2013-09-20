@@ -136,6 +136,16 @@ section.board img {
   }
 }
 
+section.chance {
+  width: 460px;
+  float: left;
+}
+
+section.community {
+  width: 460px;
+  float: left;
+}
+
 body {
   width: 960px;
   margin: auto;
