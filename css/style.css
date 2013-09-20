@@ -137,7 +137,7 @@ section.board img {
 }
 
 section.cards {
-  width: 480px;
+  width: 420px;
   float: left;
   margin: 0 auto;
   text-align: center;
@@ -249,14 +249,18 @@ nav ul li a {
 section {
   font-family: "Istok Web", sans-serif;
   background-color: white;
+  padding: 10px 30px;
+  margin: 10px 0;
 }
 
 footer {
-  width: 920px;
   font-family: "Quattrocento", serif;
   float: left;
   background-color: white;
   width: 960px;
+}
+footer p {
+  margin: 30px;
 }
 
 .clear {
