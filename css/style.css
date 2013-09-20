@@ -17,19 +17,20 @@ body {
 
 header {
   font-family: "Quattrocento", serif;
-  font-size: 40px;
+  font-size: 50px;
   background-color: red; }
 
-.logo_image {
-  width: 80px;
-  margin: 0 auto;
-  float: left; }
-
 .header_text {
-  margin: 50px 0 5px 0; }
+  padding: 0 0 0 12px; }
 
 nav {
   font-family: "Quattrocento", serif; }
+  nav ul li {
+    float: left;
+    list-style: none;
+    font-size: 20px;
+    margin: 0 12px 12px 12px;
+    padding: 5px 0 5px 20px; }
 
 section {
   font-family: "Istok Web", sans-serif; }
