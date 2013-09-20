@@ -136,6 +136,10 @@ section.board img {
   }
 }
 
+.main {
+  margin: 10px 0;
+}
+
 section.cards {
   width: 420px;
   float: left;
