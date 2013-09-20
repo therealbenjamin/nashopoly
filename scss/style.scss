@@ -3,6 +3,7 @@
 @import "index";
 @import "pieces";
 @import "board";
+@import "cards";
 
 body {
   width: 960px;
@@ -49,10 +50,6 @@ section
 {
   font-family: $content_font;
   background-color: white;
-  iframe
-  {
-    padding-left: 180px;
-  }
 }
 
 footer
