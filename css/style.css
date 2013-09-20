@@ -2,14 +2,17 @@
 @import url(http://fonts.googleapis.com/css?family=Quattrocento:400,700);
 section.pieces li {
   padding-left: 0;
-  list-style: none; }
-  section.pieces li h2 {
-    text-transform: uppercase;
-    font-size: 2.5em; }
-  section.pieces li img {
-    float: left;
-    margin: 0 50px 0 0;
-    border: 1px solid #eee; }
+  list-style: none;
+}
+section.pieces li h2 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+}
+section.pieces li img {
+  float: left;
+  margin: 0 50px 0 0;
+  border: 1px solid #eee;
+}
 
 section.board img {
   -webkit-animation: bdrotate 10s 2s ease-in-out infinite;
@@ -135,31 +138,39 @@ section.board img {
 
 body {
   width: 960px;
-  margin: auto; }
+  margin: auto;
+}
 
 header {
   font-family: "Quattrocento", serif;
   font-size: 50px;
-  background-color: red; }
+  background-color: red;
+}
 
 .header_text {
-  padding: 0 0 0 12px; }
+  padding: 0 0 0 12px;
+}
 
 nav {
-  font-family: "Quattrocento", serif; }
-  nav ul li {
-    float: left;
-    list-style: none;
-    font-size: 20px;
-    margin: 0 12px 12px 12px;
-    padding: 5px 0 5px 20px; }
+  font-family: "Quattrocento", serif;
+}
+nav ul li {
+  float: left;
+  list-style: none;
+  font-size: 20px;
+  margin: 0 12px 12px 12px;
+  padding: 5px 0 5px 20px;
+}
 
 section {
-  font-family: "Istok Web", sans-serif; }
+  font-family: "Istok Web", sans-serif;
+}
 
 footer {
-  font-family: "Quattrocento", serif; }
+  font-family: "Quattrocento", serif;
+}
 
 .clear {
   clear: both;
-  float: none; }
+  float: none;
+}
