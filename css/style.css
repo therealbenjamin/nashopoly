@@ -108,6 +108,12 @@ section.cards {
   section.cards li {
     list-style: none; }
 
+section.chance.cards.left h2 {
+  text-align: center; }
+
+section.community.cards.right h2 {
+  text-align: center; }
+
 #ch-card1:hover {
   content: url(../images/ch-card1.jpg); }
 
@@ -170,6 +176,7 @@ section {
   background-color: white; }
 
 footer {
+  width: 920px;
   font-family: "Quattrocento", serif;
   float: left;
   background-color: white; }
