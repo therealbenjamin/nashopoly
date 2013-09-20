@@ -9,16 +9,15 @@ body {
   width: 960px;
   margin: auto;
   background: brown url(../images/wood-background-repeating_1.jpg) repeat;
+  font-family: $main_font;
 }
 
 header
 {
-  font-family: $main_font;
+  background-color: transparent;
   font-size: $header_font_size;
-  margin: 0 auto;
-  width: 960px;
-  img
-  {
+  padding: 20px 0;
+  img {
     margin: auto;
     display: block;
   }
@@ -26,7 +25,7 @@ header
 
 nav
 {
-  font-family: $main_font;
+  background-color: white;
   ul
   {
     li

@@ -147,19 +147,19 @@ section.community.cards.right h2 {
 body {
   width: 960px;
   margin: auto;
-  background: brown url(../images/wood-background-repeating_1.jpg) repeat; }
+  background: brown url(../images/wood-background-repeating_1.jpg) repeat;
+  font-family: "Quattrocento", serif; }
 
 header {
-  font-family: "Quattrocento", serif;
+  background-color: transparent;
   font-size: 50px;
-  margin: 0 auto;
-  width: 960px; }
+  padding: 20px 0; }
   header img {
     margin: auto;
     display: block; }
 
 nav {
-  font-family: "Quattrocento", serif; }
+  background-color: white; }
   nav ul li {
     float: left;
     list-style: none;
