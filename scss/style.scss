@@ -10,6 +10,7 @@ body {
   margin: auto;
   background: brown url(../images/wood-background-repeating_1.jpg) repeat;
   font-family: $main_font;
+  overflow-y: scroll;
 }
 
 header

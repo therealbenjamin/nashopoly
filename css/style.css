@@ -137,8 +137,9 @@ section.board img {
 }
 
 section.cards {
-  width: 460px;
+  width: 480px;
   float: left;
+  margin: 0 auto;
   text-align: center;
 }
 section.cards ul {
@@ -146,14 +147,21 @@ section.cards ul {
 }
 section.cards li {
   list-style: none;
+  padding-bottom: 20px;
 }
 
 section.chance.cards.left h2 {
   text-align: center;
 }
+section.chance.cards.left ul {
+  margin-right: -30px;
+}
 
 section.community.cards.right h2 {
   text-align: center;
+}
+section.community.cards.right ul {
+  margin-left: -30px;
 }
 
 #ch-card1:hover {
@@ -201,6 +209,7 @@ body {
   margin: auto;
   background: brown url(../images/wood-background-repeating_1.jpg) repeat;
   font-family: "Quattrocento", serif;
+  overflow-y: scroll;
 }
 
 header {
