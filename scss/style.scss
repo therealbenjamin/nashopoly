@@ -13,10 +13,9 @@ body {
 
 header
 {
+  margin: auto;
   font-family: $main_font;
   font-size: $header_font_size;
-  background-color: white;
-  margin-top: 20px;
 }
 
 .header_text
