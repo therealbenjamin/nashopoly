@@ -146,21 +146,21 @@ body {
 header {
   font-family: "Quattrocento", serif;
   font-size: 50px;
-  background-color: white;
-  margin-top: 20px; }
-
-.header_img {
-  padding: 20px 0 20px 315px; }
+  margin: 0 auto;
+  width: 960px; }
+  header img {
+    margin: auto;
+    display: block; }
 
 nav {
-  font-family: "Quattrocento", serif;
-  background-color: white; }
+  font-family: "Quattrocento", serif; }
   nav ul li {
     float: left;
     list-style: none;
     font-size: 20px;
     margin: 0 12px 12px 12px;
-    padding: 20px 0 5px 20px; }
+    padding: 20px 0 5px 20px;
+    font-weight: bold; }
     nav ul li a {
       text-decoration: none;
       color: black; }
