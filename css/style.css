@@ -102,13 +102,38 @@ section.board img {
   80.01% {
     transform: rotate(0deg); } }
 
-section.chance {
+section.cards {
   width: 460px;
   float: left; }
 
 section.community {
   width: 460px;
   float: left; }
+  float: left;
+}
+section.cards li {
+  list-style: none;
+}
+
+#ch-card1:hover {
+  content: url(../images/ch-card1.jpg);
+}
+
+#ch-card2:hover {
+  content: url(../images/ch-card2.jpg);
+}
+
+#ch-card3:hover {
+  content: url(../images/ch-card1.jpg);
+}
+
+#ch-card4:hover {
+  content: url(../images/ch-card1.jpg);
+}
+
+#ch-card5:hover {
+  content: url(../images/ch-card1.jpg);
+}
 
 body {
   width: 960px;
