@@ -236,15 +236,29 @@ section {
   padding: 30px 80px;
   margin: auto; }
   section h1 {
-    text-align: center; }
+    text-align: center;
+    background-color: lightgray;
+    padding: 5px 0 5px 0;
+    box-shadow: 5px 5px 12px black;
+    border-radius: 10px; }
 
 section {
   border-radius: 4px; }
   section h2 {
-    text-align: center; }
+    text-align: center;
+    background-color: lightgray;
+    box-shadow: 5px 5px 12px black;
+    border-radius: 4px; }
 
 section h3 {
-  text-align: center; }
+  text-align: center;
+  background-color: lightgray;
+  box-shadow: 5px 5px 12px black;
+  border-radius: 4px; }
+section ul {
+  background-color: lightgray;
+  box-shadow: 5px 5px 12px black;
+  border-radius: 4px; }
 
 footer {
   font-family: "Quattrocento", serif;
@@ -254,7 +268,8 @@ footer {
   padding: 10px 0 10px 0;
   text-align: center;
   margin: 0 0 10px 0;
-  border-radius: 4px; }
+  border-radius: 4px;
+  box-shadow: 5px 5px 12px black; }
   footer p {
     margin: 30px; }
 
