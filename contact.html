@@ -32,8 +32,47 @@
           <a href='contact.html'>Contact Us</a>
         </li>
       </ul>
-      <div class='clear'></div>
     </nav>
+    <div class='clear'></div>
+    <section class='contact'>
+      <h1>Contact Us</h1>
+      <p>Welcome to our rendition of NASHopoly, Where ANYTHING can happen!</p>
+      <p>This site has been a collaborative effort; creators are as follows....</p>
+      <ul id='credit'>
+        <li id='meet'>Ron</li>
+        <img src='images/ron.jpg'>
+        <li id='meet'>Scott</li>
+        <img src='images/scott.jpg'>
+        <li id='meet'>Benjamin</li>
+        <img src='images/ben.jpg'>
+      </ul>
+      <p>% Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, illo, consequuntur explicabo natus aut deleniti sapiente accusamus odio dignissimos velit laborum dolorem necessitatibus voluptas voluptatum maxime eaque suscipit veritatis nemo.</p>
+    </section>
+    <div class='clear'></div>
+    <section>
+      <div>
+        <form action='/contact' enctype='text/plain' id='email' method='post' name='email'>
+          <fieldset>
+            <ol>
+              <li>
+                <label for='message[name]'>Name:</label>
+                <input class='text' name='message[name]' type='text'>
+              </li>
+              <li>
+                <label for='message[mail]'>Mail:</label>
+                <input class='text' name='message[mail]' type='text'>
+              </li>
+              <li>
+                <label for='message[body]'>Message:</label>
+                <textarea name='message[body]'></textarea>
+              </li>
+            </ol>
+            <input class='button' type='submit' value='Send'>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <div class='clear'></div>
     <footer>
       <p>&copy; Copyright 2013, RSB Concepts LLC</p>
     </footer>

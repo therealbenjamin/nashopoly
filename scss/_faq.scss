@@ -1,0 +1,10 @@
+section
+{
+  ul
+  {
+    li:nth-child(odd)
+    {
+      font-weight: bold;
+    }
+  }
+}
