@@ -16,6 +16,7 @@ body {
 
 header
 {
+  border-radius: 4px;
   background-color: transparent;
   font-size: $header_font_size;
   padding: 20px 0;
@@ -28,21 +29,23 @@ header
 nav
 {
   background-color: lightgray;
+  border-radius: 4px;
   ul
   {
     width: 90%;
     margin: auto;
-    padding: 0;
+    padding: 0 0 0 10px;
     li
     {
       float: left;
       list-style: none;
-      font-size: 20px;
+      font-size: 18px;
       margin: 5px 10px;
-      padding: 5px 10px;
+      padding: 10px 14px;
       font-weight: bold;
       &:hover {
          background: gray;
+         border-radius: 4px;
       }
       a
       {
@@ -72,14 +75,33 @@ section
   }
 }
 
+section
+{
+  border-radius: 4px;
+  h2
+  {
+    text-align: center;
+  }
+}
+
+section
+{
+  h3
+  {
+    text-align: center;
+  }
+}
+
 footer
 {
   font-family: $main_font;
   float: left;
   background-color: lightgray;
   width: 960px;
-  padding: 0 0 10px 0;
+  padding: 10px 0 10px 0;
   text-align: center;
+  margin: 0 0 10px 0;
+  border-radius: 4px;
   p {
     margin: 30px;
   }
