@@ -13,7 +13,7 @@ section.pieces {
       margin: 0 50px 0 0;
       border: 1px solid #eee; }
 
-section img {
+section img.board {
   margin: auto;
   -webkit-animation: bdrotate 10s 2s ease-in-out infinite;
   -moz-animation: bdrotate 10s 2s ease-in-out infinite;
@@ -204,11 +204,13 @@ header {
   padding: 20px 0; }
   header img {
     margin: auto;
-    display: block; }
+    display: block;
+    text-align: center; }
 
 nav {
   background-color: lightgray;
-  border-radius: 4px; }
+  border-radius: 4px;
+  box-shadow: 5px 5px 12px black; }
   nav ul {
     width: 90%;
     margin: auto;
@@ -241,6 +243,8 @@ section {
     padding: 5px 0 5px 0;
     box-shadow: 5px 5px 12px black;
     border-radius: 10px; }
+  section p {
+    padding-left: 5px; }
 
 section {
   border-radius: 4px; }
@@ -259,6 +263,13 @@ section ul {
   background-color: lightgray;
   box-shadow: 5px 5px 12px black;
   border-radius: 4px; }
+section p {
+  background-color: lightgray;
+  box-shadow: 5px 5px 12px black;
+  border-radius: 4px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px; }
 
 footer {
   font-family: "Quattrocento", serif;
@@ -271,7 +282,8 @@ footer {
   border-radius: 4px;
   box-shadow: 5px 5px 12px black; }
   footer p {
-    margin: 30px; }
+    margin: 5px;
+    padding: 0 0 70px 0; }
 
 .clear {
   clear: both;
