@@ -1,0 +1,59 @@
+!!! 5
+%html{lang: 'en'}
+  %head
+    %meta{charset: 'utf-8'}
+    %title Nashopoly
+    %link{rel: 'stylesheet', href: 'css/normalize.css'}
+    %link{rel: 'stylesheet', href: 'css/style.css'}
+  %body
+    %header
+      %img.header{src: 'images/logofinal.png', alt:'Nashopoly Logo'}
+      .clear
+    %nav#navbar
+      %ul
+        %li
+          %a{href: 'index.html'} Home
+        %li
+          %a{href: 'board.html'} Board
+        %li
+          %a{href: 'pieces.html'} Pieces
+        %li
+          %a{href: 'cards.html'} Cards
+        %li
+          %a{href: 'faq.html'} Frequently Asked Questions
+        %li
+          %a{href: 'contact.html'} Contact Us
+    .clear
+    %section.contact
+      %h1 Contact Us
+      %p Welcome to our rendition of NASHopoly, Where ANYTHING can happen!
+      %p This site has been a collaborative effort; creators are as follows....
+      %ul#credit
+        %li#meet Ron: Awesome dude
+        %img{src: 'images/ron.jpg'}
+        %li#meet Scott: Awesome dude
+        %img{src: 'images/scott.jpg'}
+        %li#meet Benjamin: Awesome dude
+        %img{src: 'images/ben.jpg'}
+      %p % Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, illo, consequuntur explicabo natus aut deleniti sapiente accusamus odio dignissimos velit laborum dolorem necessitatibus voluptas voluptatum maxime eaque suscipit veritatis nemo.
+    .clear
+    %section
+      %div
+        %form{:name => "email", :id => "email", :action => "/contact", :method => "post", :enctype => "text/plain"}
+          %fieldset
+            %ol
+              %li
+                %label{:for => "message[name]"} Name:
+                %input{:type => "text", :name => "message[name]", :class => "text"}
+              %li
+                %label{:for => "message[mail]"} Mail:
+                %input{:type => "text", :name => "message[mail]", :class => "text"}
+              %li
+                %label{:for => "message[body]"} Message:
+                %textarea{:name => "message[body]"}
+            %input{:type => "submit", :value => "Send", :class => "button"}
+
+
+    .clear
+    %footer
+      %p &copy; Copyright 2013, RSB Concepts LLC

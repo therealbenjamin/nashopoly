@@ -1,0 +1,39 @@
+.contact
+{
+  margin: auto;
+  background-color:#965128;
+  border-radius: 90px;
+}
+h1
+{
+  font-family: $main_font;
+  font-size: 50px;
+  text-align: center;
+}
+p
+  {
+    font-family:$content_font;
+    text-align: center;
+    margin: auto;
+
+}
+  ul > #meet
+  {
+    margin: 0px 0px 0px 30px;
+    font-family:$content_font;
+    text-align: center;
+    list-style: none;
+
+
+
+  }
+section > div > form
+{
+  float: left;
+  display: block;
+  margin: 20px 200px;
+  padding-top: 10px 0px;
+  border: 4px solid brown;
+
+}
+

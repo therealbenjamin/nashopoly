@@ -1,8 +1,11 @@
 section.pieces {
+  text-align: center;
+  box-shadow: none;
   li {
     h2 {
       text-transform: uppercase;
       font-size: 2.5em;
+      box-shadow: none;
     }
     img {
       float: left;
@@ -10,7 +13,16 @@ section.pieces {
       border: 1px solid #eee;
     }
 
+    p {
+      box-shadow: none;
+    }
+
     padding-left: 0;
     list-style: none;
+    box-shadow: none;
+  }
+
+  ul {
+    padding: 20px;
   }
 }
