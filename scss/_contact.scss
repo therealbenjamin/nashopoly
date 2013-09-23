@@ -15,7 +15,6 @@ p
     font-family:$content_font;
     text-align: center;
     margin: auto;
-
 }
   ul > #meet
   {
@@ -53,3 +52,17 @@ ol
   }
 }
 
+.contact > ul > img:hover
+{
+    -moz-transform: scale(2) rotate(360deg) translateX(40px) translateY(40px) skewX(0deg) skewY(0deg);
+    -webkit-transform: scale(2) rotate(360deg) translateX(40px) translateY(40px) skewX(0deg) skewY(0deg);
+        -o-transform: scale(2) rotate(360deg) translateX(40px) translateY(40px) skewX(0deg) skewY(0deg);
+        -ms-transform: scale(2) rotate(360deg) translateX(40px) translateY(40px) skewX(0deg) skewY(0deg);
+        transform: scale(2) rotate(360deg) translateX(40px) translateY(40px) skewX(0deg) skewY(0deg);
+
+-webkit-transition: all .5s ease-in-out;
+-moz-transition: all .5s ease-in-out;
+-ms-transition: all .5s ease-in-out;
+-o-transition: all .5s ease-in-out;
+transition: all .5s ease-in-out;
+}
