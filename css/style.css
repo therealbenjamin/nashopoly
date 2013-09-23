@@ -1,81 +1,18 @@
-/*
-Syntax error: File to import not found or unreadable: index.
-              Load paths:
-                /home/ben/Code/Projects/nashopoly
-                /home/ben/Code/Projects/nashopoly/scss
-        on line 3 of scss/style.scss
-
-1: @import "colors";
-2: @import "fonts";
-3: @import "index";
-4: @import "pieces";
-5: @import "board";
-6: @import "cards";
-7: @import "faq";
-8: @import "contact";
-
-Backtrace:
-scss/style.scss:3
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/import_node.rb:67:in `rescue in import'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/import_node.rb:45:in `import'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/import_node.rb:28:in `imported_file'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/import_node.rb:37:in `css_import?'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `map'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/root_node.rb:20:in `render'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/engine.rb:315:in `_render'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/engine.rb:262:in `render'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `each'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:283:in `block in watch'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:198:in `call'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:198:in `report_changes'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:210:in `poll_changed_dirs'
-/home/ben/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/linux.rb:48:in `block in start'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: index.\A               Load paths:\A                 /home/ben/Code/Projects/nashopoly\A                 /home/ben/Code/Projects/nashopoly/scss\A         on line 3 of scss/style.scss\A \A 1: @import \"colors\";\A 2: @import \"fonts\";\A 3: @import \"index\";\A 4: @import \"pieces\";\A 5: @import \"board\";\A 6: @import \"cards\";\A 7: @import \"faq\";\A 8: @import \"contact\";"; }
-
 section.pieces li {
   padding-left: 0;
-  list-style: none;
-}
-section.pieces li h2 {
-  text-transform: uppercase;
-  font-size: 2.5em;
-}
-section.pieces li img {
-  float: left;
-  margin: 0 50px 0 0;
-  border: 1px solid #eee;
-}
+  list-style: none; }
+  section.pieces li h2 {
+    text-transform: uppercase;
+    font-size: 2.5em; }
+  section.pieces li img {
+    float: left;
+    margin: 0 50px 0 0;
+    border: 1px solid #eee; }
 
 body {
   width: 960px;
-  margin: auto;
-}
+  margin: auto; }
 
 .clear {
   clear: both;
-  float: none;
-}
-
+  float: none; }
