@@ -13,7 +13,7 @@ section.pieces {
       margin: 0 50px 0 0;
       border: 1px solid #eee; }
 
-section img {
+section img.board {
   margin: auto;
   -webkit-animation: bdrotate 10s 2s ease-in-out infinite;
   -moz-animation: bdrotate 10s 2s ease-in-out infinite;
@@ -105,29 +105,36 @@ section img {
   80.01% {
     transform: rotate(0deg); } }
 
+.play {
+  margin: 0px 175px;
+  float: left; }
+
 .main {
   margin: 10px 0; }
 
 section.cards {
   width: 420px;
   float: left;
-  margin: 0 auto;
   text-align: center; }
   section.cards ul {
-    padding: 0; }
+    padding: 25px 0 25px 0; }
   section.cards li {
     list-style: none;
     padding-bottom: 20px; }
 
-section.chance.cards.left h2 {
-  text-align: center; }
-section.chance.cards.left ul {
-  margin-right: -30px; }
+section.chance.cards.left {
+  float: left; }
+  section.chance.cards.left h2 {
+    text-align: center; }
+  section.chance.cards.left ul {
+    margin-right: -30px; }
 
-section.community.cards.right h2 {
-  text-align: center; }
-section.community.cards.right ul {
-  margin-left: -30px; }
+section.community.cards.right {
+  float: left; }
+  section.community.cards.right h2 {
+    text-align: center; }
+  section.community.cards.right ul {
+    margin-left: -30px; }
 
 #ch-card1:hover {
   content: url(../images/ch-card1.jpg); }
@@ -159,8 +166,13 @@ section.community.cards.right ul {
 #cc-card5:hover {
   content: url(../images/cc-card5.jpg); }
 
-section ul li:nth-child(odd) {
-  font-weight: bold; }
+section {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  li: nth-child(odd);
+    li-font-weight: bold; }
 
 .contact {
   margin: auto;
@@ -204,11 +216,13 @@ header {
   padding: 20px 0; }
   header img {
     margin: auto;
-    display: block; }
+    display: block;
+    text-align: center; }
 
 nav {
   background-color: lightgray;
-  border-radius: 4px; }
+  border-radius: 4px;
+  box-shadow: 5px 5px 12px black; }
   nav ul {
     width: 90%;
     margin: auto;
@@ -241,6 +255,8 @@ section {
     padding: 5px 0 5px 0;
     box-shadow: 5px 5px 12px black;
     border-radius: 10px; }
+  section p {
+    padding-left: 5px; }
 
 section {
   border-radius: 4px; }
@@ -259,6 +275,13 @@ section ul {
   background-color: lightgray;
   box-shadow: 5px 5px 12px black;
   border-radius: 4px; }
+section p {
+  background-color: lightgray;
+  box-shadow: 5px 5px 12px black;
+  border-radius: 4px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px; }
 
 footer {
   font-family: "Quattrocento", serif;
@@ -271,7 +294,8 @@ footer {
   border-radius: 4px;
   box-shadow: 5px 5px 12px black; }
   footer p {
-    margin: 30px; }
+    margin: 5px;
+    padding: 0 0 0 0; }
 
 .clear {
   clear: both;
