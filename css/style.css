@@ -1,17 +1,24 @@
 @import url(http://fonts.googleapis.com/css?family=Istok+Web:400,700,400italic,700italic);
 @import url(http://fonts.googleapis.com/css?family=Quattrocento:400,700);
 section.pieces {
-  text-align: center; }
+  text-align: center;
+  box-shadow: none; }
   section.pieces li {
     padding-left: 0;
-    list-style: none; }
+    list-style: none;
+    box-shadow: none; }
     section.pieces li h2 {
       text-transform: uppercase;
-      font-size: 2.5em; }
+      font-size: 2.5em;
+      box-shadow: none; }
     section.pieces li img {
       float: left;
       margin: 0 50px 0 0;
       border: 1px solid #eee; }
+    section.pieces li p {
+      box-shadow: none; }
+  section.pieces ul {
+    padding: 20px; }
 
 section img.board {
   margin: auto;
@@ -115,7 +122,8 @@ section img.board {
 section.cards {
   width: 420px;
   float: left;
-  text-align: center; }
+  text-align: center;
+  padding: 50px 0 50px 30px; }
   section.cards ul {
     padding: 25px 0 25px 0; }
   section.cards li {
