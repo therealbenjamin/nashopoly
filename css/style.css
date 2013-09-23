@@ -54,3 +54,28 @@ body:before {
   white-space: pre;
   font-family: monospace;
   content: "Syntax error: File to import not found or unreadable: index.\A               Load paths:\A                 /home/ben/Code/Projects/nashopoly\A                 /home/ben/Code/Projects/nashopoly/scss\A         on line 3 of scss/style.scss\A \A 1: @import \"colors\";\A 2: @import \"fonts\";\A 3: @import \"index\";\A 4: @import \"pieces\";\A 5: @import \"board\";\A 6: @import \"cards\";\A 7: @import \"faq\";\A 8: @import \"contact\";"; }
+
+section.pieces li {
+  padding-left: 0;
+  list-style: none;
+}
+section.pieces li h2 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+}
+section.pieces li img {
+  float: left;
+  margin: 0 50px 0 0;
+  border: 1px solid #eee;
+}
+
+body {
+  width: 960px;
+  margin: auto;
+}
+
+.clear {
+  clear: both;
+  float: none;
+}
+

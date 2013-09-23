@@ -1,0 +1,13 @@
+@import "colors";
+@import "fonts";
+@import "pieces";
+
+body {
+  width: 960px;
+  margin: auto;
+}
+
+.clear {
+  clear: both;
+  float: none;
+}
