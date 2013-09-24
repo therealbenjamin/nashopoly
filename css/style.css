@@ -15,6 +15,9 @@ section.pieces {
       float: left;
       margin: 0 50px 0 0;
       border: 1px solid #eee; }
+    section.pieces li img.box-shadow {
+      box-shadow: 5px 5px 12px black;
+      border-radius: 10px; }
     section.pieces li p {
       box-shadow: none; }
   section.pieces ul {
@@ -179,8 +182,16 @@ section {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  li: nth-of-type(1);
+    li-padding-right: 10px;
   li: nth-child(odd);
     li-font-weight: bold; }
+  section li {
+    list-style: none; }
+
+.bold {
+  font-weight: bold;
+  font-size: 1.2em; }
 
 .contact {
   margin: auto;
@@ -261,7 +272,7 @@ nav {
       padding: 10px 14px;
       font-weight: bold; }
       nav ul li:hover {
-        background: gray;
+        background: darkgray;
         border-radius: 4px; }
       nav ul li a {
         text-decoration: none;

@@ -13,6 +13,12 @@ section.pieces {
       border: 1px solid #eee;
     }
 
+img.box-shadow
+{
+    box-shadow: 5px 5px 12px black;
+    border-radius: 10px;
+}
+
     p {
       box-shadow: none;
     }
@@ -26,3 +32,6 @@ section.pieces {
     padding: 20px;
   }
 }
+
+
+

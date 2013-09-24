@@ -5,8 +5,22 @@ section
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  li
+  {
+    list-style: none;
+  }
+  li: nth-of-type(1)
+  {
+    padding-right: 10px;
+  }
   li: nth-child(odd)
   {
     font-weight: bold;
   }
+}
+
+.bold
+{
+  font-weight: bold;
+  font-size: 1.2em;
 }
