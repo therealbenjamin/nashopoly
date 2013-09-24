@@ -1,15 +1,5 @@
 section {
 
-  img.board {
-    margin:auto;
-    -webkit-animation: bdrotate 10s 2s ease-in-out infinite;
-    -moz-animation: bdrotate 10s 2s ease-in-out infinite;
-    -o-animation: bdrotate 10s 2s ease-in-out infinite;
-    -ms-animation: bdrotate 10s 2s ease-in-out infinite;
-    animation: bdrotate 10s 2s ease-in-out infinite;
-
-  }
-
 }
 
 @-webkit-keyframes bdrotate {
@@ -50,7 +40,7 @@ section {
 
 .play
 {
-  margin:0px 175px;
+  margin:0px 200px;
   float: left;
 }
 
