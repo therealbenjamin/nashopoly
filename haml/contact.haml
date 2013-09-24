@@ -1,0 +1,58 @@
+!!! 5
+%html{lang: 'en'}
+  %head
+    %meta{charset: 'utf-8'}
+    %title Nashopoly
+    %link{rel: 'stylesheet', href: 'css/normalize.css'}
+    %link{rel: 'stylesheet', href: 'css/style.css'}
+  %body
+    %header
+      %img.header{src: 'images/logofinal.png', alt:'Nashopoly Logo'}
+      .clear
+    %nav#navbar
+      %ul
+        %li
+          %a{href: 'index.html'} Home
+        %li
+          %a{href: 'board.html'} Board
+        %li
+          %a{href: 'pieces.html'} Pieces
+        %li
+          %a{href: 'cards.html'} Cards
+        %li
+          %a{href: 'faq.html'} Frequently Asked Questions
+        %li
+          %a{href: 'contact.html'} Contact Us
+    .clear
+    %section.contact
+      %h1 Contact Us
+      %p Welcome to our rendition of NASHopoly, Where ANYTHING can happen! This site has been a collaborative effort; creators are as follows....
+      %ul#credit
+        %li#meet Ron: Awesome dude
+        %img.contact_pics{src: 'images/ron.jpg'}
+        %li#meet Scott: Awesome dude
+        %img.contact_pics{src: 'images/scott.jpg'}
+        %li#meet Benjamin: Awesome dude
+        %img.contact_pics{src: 'images/ben.jpg'}
+      %p Commit these three faces to memory, for they are men of great genius and style.
+    .clear
+    %section
+      %div
+        %form{:name => "email", :id => "email", :action => "/contact", :method => "post", :enctype => "text/plain"}
+          %fieldset
+            %ol
+              %li
+                %label{:for => "message[name]"} Name:
+                %input{:type => "text", :name => "message[name]", :class => "text"}
+              %li
+                %label{:for => "message[mail]"} Mail:
+                %input{:type => "text", :name => "message[mail]", :class => "text"}
+              %li
+                %label{:for => "message[body]"} Message:
+                %textarea{:name => "message[body]"}
+            %input{:type => "submit", :value => "Send", :class => "button"}
+
+    #map <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=315%2BTenth%2BAvenue%2BNorth%2BNashville%2C%2BTN(Nashopoly)&ie=UTF8&z=12&t=m&iwloc=near&output=embed"></iframe>
+    .clear
+    %footer
+      %p &copy; Copyright 2013, RSB Concepts LLC

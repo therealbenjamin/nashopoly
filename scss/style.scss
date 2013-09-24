@@ -1,10 +1,143 @@
 @import "colors";
 @import "fonts";
+@import "index";
 @import "pieces";
+@import "board";
+@import "cards";
+@import "faq";
+@import "contact";
 
 body {
   width: 960px;
   margin: auto;
+  background: brown url(../images/wood-background-repeating_1.jpg) repeat;
+  font-family: $main_font;
+  overflow-y: scroll;
+}
+
+header
+{
+  border-radius: 4px;
+  background-image: url(../images/nashville.jpg);
+  font-size: $header_font_size;
+  padding: 20px 0;
+  img {
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
+}
+
+nav
+{
+  background-color: lightgray;
+  border-radius: 4px;
+  box-shadow: 5px 5px 12px black;
+  ul
+  {
+    width: 90%;
+    margin: auto;
+    padding: 0 0 0 10px;
+    li
+    {
+      float: left;
+      list-style: none;
+      font-size: 18px;
+      margin: 5px 10px;
+      padding: 10px 14px;
+      font-weight: bold;
+      &:hover {
+         background: darkgray;
+         border-radius: 4px;
+      }
+      a
+      {
+        text-decoration: none;
+        color: black;
+
+        &:hover
+        {
+          background: darkgray;
+          font-size: 1.1em;
+          color: orange;
+        }
+      }
+    }
+  }
+}
+
+section
+{
+  font-family: $content_font;
+  padding: 30px 80px;
+  margin: auto;
+  h1
+  {
+    text-align: center;
+    background-color: lightgray;
+    padding: 5px 0 5px 0;
+    box-shadow: 5px 5px 12px black;
+    border-radius: 10px;
+  }
+  p
+  {
+    padding-left: 5px;
+  }
+}
+
+section
+{
+  border-radius: 4px;
+  h2
+  {
+    text-align: center;
+    background-color: lightgray;
+    box-shadow: 5px 5px 12px black;
+    border-radius: 4px;
+  }
+}
+
+section
+{
+  h3
+  {
+    text-align: center;
+    background-color: lightgray;
+    box-shadow: 5px 5px 12px black;
+    border-radius: 4px;
+  }
+  ul
+  {
+    background-color: lightgray;
+    box-shadow: 5px 5px 12px black;
+    border-radius: 4px;
+  }
+  p
+  {
+    background-color: lightgray;
+    box-shadow: 5px 5px 12px black;
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+footer
+{
+  font-family: $main_font;
+  float: left;
+  background-color: lightgray;
+  width: 960px;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  margin: 0 0 10px 0;
+  border-radius: 4px;
+  box-shadow: 5px 5px 12px black;
+  p {
+    margin: 5px;
+    padding: 0 0 0 0;
+  }
 }
 
 .clear {
