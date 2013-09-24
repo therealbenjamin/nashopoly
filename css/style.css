@@ -15,6 +15,9 @@ section.pieces {
       float: left;
       margin: 0 50px 0 0;
       border: 1px solid #eee; }
+    section.pieces li img.box-shadow {
+      box-shadow: 5px 5px 12px black;
+      border-radius: 10px; }
     section.pieces li p {
       box-shadow: none; }
   section.pieces ul {
@@ -117,7 +120,7 @@ section.cards {
   text-align: center;
   padding: 50px 0 50px 30px; }
   section.cards ul {
-    padding: 0; }
+    padding: 25px 0 25px 0; }
   section.cards li {
     list-style: none;
     padding-bottom: 20px; }
@@ -134,7 +137,7 @@ section.community.cards.right {
   section.community.cards.right h2 {
     text-align: center; }
   section.community.cards.right ul {
-    margin-left: 15px; }
+    margin-left: -30px; }
 
 #ch-card1:hover {
   content: url(../images/ch-card1.jpg); }
@@ -171,8 +174,16 @@ section {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  li: nth-of-type(1);
+    li-padding-right: 10px;
   li: nth-child(odd);
     li-font-weight: bold; }
+  section li {
+    list-style: none; }
+
+.bold {
+  font-weight: bold;
+  font-size: 1.2em; }
 
 .contact {
   margin: auto;
@@ -220,6 +231,9 @@ ol li:nth-of-type(2) {
   -o-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out; }
 
+.bg {
+  background-color: lightgray; }
+
 body {
   width: 960px;
   margin: auto;
@@ -253,7 +267,7 @@ nav {
       padding: 10px 14px;
       font-weight: bold; }
       nav ul li:hover {
-        background: gray;
+        background: darkgray;
         border-radius: 4px; }
       nav ul li a {
         text-decoration: none;
